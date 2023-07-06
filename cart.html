@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/a18ed6243f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+    <!-- Nav-Bar.................................. -->
+
+    <section id="header">
+        <div class="header-logo">
+            <a href="#"><img src="./img/logo.png" alt=""></a>
+        </div>
+        <div>
+            <ul id="navbar">
+
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html" class="active"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <a href="#"><i id="close" class="fa-solid fa-circle-xmark"></i></a>
+            </ul>
+
+        </div>
+        <!-- Media-Query -->
+
+        <div id="mobile">
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+
+    </section>
+
+
+
+    <section id="page-header" class="about-header">
+
+        <h2>#let's_talk</h2>
+
+        <p>LEAVE A MESSAGE,WE love to hear from you!</p>
+
+    </section>
+    <!-- Cart-Section -->
+    
+    <section id="cart">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>SubTotal</td>
+                </tr>
+
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="fa-sharp fa-solid fa-circle-xmark"></i></a></td>
+                   <td>
+                    <img src="./img/products/f1.jpg" alt="image">
+                   </td>
+                   <td>Cartoon Astronout T-shirts</td>
+                   <td>
+                    $ 118.22
+                   </td>
+                   <td><input type="number" value="1"></td>
+                   <td>
+                    $ 118.22
+                   </td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="fa-sharp fa-solid fa-circle-xmark"></i></a></td>
+                   <td>
+                    <img src="./img/products/f2.jpg" alt="image">
+                   </td>
+                   <td>Cartoon Astronout T-shirts</td>
+                   <td>
+                    $ 188.02
+                   </td>
+                   <td><input type="number" value="1"></td>
+                   <td>
+                    $ 188.02
+                   </td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="fa-sharp fa-solid fa-circle-xmark"></i></a></td>
+                   <td>
+                    <img src="./img/products/f3.jpg" alt="image">
+                   </td>
+                   <td>Cartoon Astronout T-shirts</td>
+                   <td>
+                    $ 192.27
+                   </td>
+                   <td><input type="number" value="1"></td>
+                   <td>
+                    $ 192.27
+                   </td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="fa-sharp fa-solid fa-circle-xmark"></i></a></td>
+                   <td>
+                    <img src="./img/products/f4.jpg" alt="image">
+                   </td>
+                   <td>Cartoon Astronout T-shirts</td>
+                   <td>
+                    $ 148.00
+                   </td>
+                   <td><input type="number" value="1"></td>
+                   <td>
+                    $ 148.00
+                   </td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="fa-sharp fa-solid fa-circle-xmark"></i></a></td>
+                   <td>
+                    <img src="./img/products/f5.jpg" alt="image">
+                   </td>
+                   <td>Cartoon Astronout T-shirts</td>
+                   <td>
+                    $ 154.06
+                   </td>
+                   <td><input type="number" value="1"></td>
+                   <td>
+                    $ 154.06
+                   </td>
+                </tr>
+            </tbody>
+        </table>
+
+    </section>
+
+
+
+    <section id="cart-add">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <input type="text" placeholder="Enter Your Coupon">
+            <button class="Coupon-button"> Apply</button>
+        </div>
+        <div id="subtotal">
+            <h3> Cart Totals</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td>$335</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+            
+                </tr>
+                <tr>
+                    <td><b>Total</b></td>
+                    <td><b>$335</b></td>
+                </tr>
+                
+            </table>
+    
+            <button class="subtotal-button"> Procced to Checkout</button>
+    
+       
+        </div>
+      </section>
+    
+
+
+
+    <!-- newsletter................................. -->
+    <section id="newsletter">
+        <div class="newstext">
+            <h4>Sign Up for Newsletters</h4>
+            <p>Get E-mail updates about our latest shop and <span>Special Offers.</span></p>
+        </div>
+
+        <div class="form">
+            <input type="text" placeholder=" Enter your e-mail">
+            <button class="button"> Sign Up</button>
+        </div>
+
+    </section>
+
+    <!-- Footer-Section............................. -->
+    <footer id="Sectionp-1">
+        <div class="col">
+            <img src="./img/logo.png" alt="company-logo">
+            <h4> Contact</h4>
+            <p><strong>Address &nbsp:&nbsp&nbsp</strong>987e/7 J.B.C. near bsnl Tower,Sonipat</p>
+            <p><b>Phone &nbsp:&nbsp&nbsp </b> +21 - 0012155</p>
+            <p><b>Hours &nbsp:&nbsp&nbsp </b> 6:00 Am-10:00 pm</p>
+            <h4>Follow us</h4>
+            <div class="follow">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-solid fa-envelope"></i>
+                <i class="fa-brands fa-youtube"></i>
+
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us </a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy policy</a>
+            <a href="#">Term & Condditions</a>
+            <a href="#">Contact us </a>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="">Sign in </a>
+            <a href="">View Cart</a>
+            <a href="">My WishList</a>
+            <a href="">Track My Order</a>
+            <a href="">Help</a>
+        </div>
+        <div class="col-install">
+            <h4>Install app</h4>
+            <p>from App Store or Google Pay</p>
+            <div class="row">
+                <img src="./img/pay/app.jpg" alt="">
+                <img src="./img/pay/play.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="./img/pay/pay.png" alt="">
+        </div>
+    </footer>
+
+    <!-- Last-Section.................................  -->
+    <div class="last">
+        <span>2022. Tech2 etc HTML CSS Ecomerce Template</span>
+    </div>
+
+
+    <script src="./javascript/script.js"></script>
+</body>
+
+</html>
